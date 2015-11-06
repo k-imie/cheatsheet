@@ -1,0 +1,149 @@
+1 - Window/Mac/Autre perso/work ?
+
+2 - Install git
+
+3 - Commandes de base
+
+cd ls rm mv cp grep mkdir
+
+4 - Gestion de version ? git ? svn ? autres ?
+
+vcs VS dvcs
+
+5 - Editor
+
+vim ? emacs ? nano ? autres ?
+
+6 - Config git
+
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+
+git config --global color.ui auto
+git config --global push.default simple
+
+git config --global core.editor vim
+git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -nosession"
+
+git config --global core.autocrlf true
+
+git config https.proxy "http://user:password@my-proxy.com:8888/"
+
+git difftool --tool-help
+
+git config --global diff.tool mytool
+git config --global merge.tool mytool
+
+git config --list
+
+git help
+
+7 - Caveats
+
+Line endings
+Case sensitivity
+
+8 - Creation compte github
+
+9 - Init
+
+git init
+
+10 - Status
+
+git status [-s]
+
+11 - Staging area
+
+git add [-p]
+git rm [--cached]
+git mv
+
+diff-oriented
+
+12 - Gitignore
+
+13 - Commit
+
+normal, amend
+
+14 - Log
+
+15 - Diff [--cached]
+
+16 - Reset / Revert / Clean
+
+17 - Checkout
+
+Changer d'état pour tout ou certains fichiers
+
+18 - Branches
+
+Concepts de base
+
+git branch
+git merge
+
+Lien avec checkout
+
+19 - Tags
+
+static branches
+release version
+
+20 - Auth
+
+ssh, https
+
+21 - Clone
+
+Fork + clone trous
+
+22 - Remote
+
+Add original repo as remote
+
+23 - Pull
+
+Pull a new line in text
+
+24 - Bonnes pratiques
+
+Message de commit explicite
+Utilisation des branches pour maintenance/dev/stable
+
+25 - Push
+
+Edit + push
+
+publish branch, tags and delete them
+
+26 - Conflict
+
+Recup des modifs d'un autre
+
+27 - rebase
+
+micro commits + rebase -i
+pull --rebase
+
+28 - Workflows
+
+All in one repo w/ branches
+Dictator
+Contributing by fork VS by patch (format-patch/am)
+backport w/ cherry-pick
+
+29 - Code review
+
+gerrit & co
+debugging w/ blame and bisect
+
+30 - CI
+
+31 - Deploy
+
+32 - git svn ?
+
+33 - Développement petit projet collab à 2
+
